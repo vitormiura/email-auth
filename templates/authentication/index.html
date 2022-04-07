@@ -22,9 +22,9 @@
         {% if user.is_authenticated %}
         <h3>Ola, {{fname}}!</h3>
         <h4>Login efetuado com sucesso!.</h4>
-        <button type="submit"><a href="/signin">Logar</a></button>
+        <button type="submit"><a href="/signou">Deslogar</a></button>
         {% else %}
-        <button type="submit"><a href="/signout">Deslogar</a></button>
+        <button type="submit"><a href="/signin">Logar</a></button>
         <br/>
         <br/>
         <button type="submit"><a href="/signup">Cadastrar</a></button>
