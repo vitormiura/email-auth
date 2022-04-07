@@ -1,0 +1,10 @@
+{% autoescape off %}
+
+ Ai-Finder - Django Login - Back-End!
+
+Seja bem vindo, {{ name }}!
+Confirme o email no seguinte link abaixo,
+
+Link de confirmação: http://{{ domain }}{% url 'activate' uidb64=uid token=token %} 
+
+{% endautoescape %}
